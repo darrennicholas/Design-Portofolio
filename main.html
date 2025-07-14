@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HCI Web Design</title>
+  <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+  />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <p class="ol">Jenius Academy</p>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#register">REGISTER</a></li>
+          <li><a href="#subscription">SUBSCRIPTION</a></li>
+          <li><a href="#testimony">TESTIMONY</a></li>
+          <li><a href="#learn">LEARN</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="text-box" id="home">
+      <h1>Fun Learning, Bright Futures</h1>
+      <p>Our best Selling Packages</p><br></br>
+      <img class="center" src="premium plan.png" alt="Premium Plan">
+    </div>
+  </section>
+
+  <section class="register" id="register">
+    <div class="container">
+      <div class="title">Registration</div>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your Email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your Phone Number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your Password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your Password" required>
+          </div>
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+              </label>
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="Register">
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <div class="pricing-plan-container" id="subscription">
+    <section class="pricing-plan">
+      <div class="pricing-plan__special-text"></div>
+      <div class="pricing-plan__header">
+        <h1 class="pricing-plan__title">Starter Plan</h1>
+        <h2 class="pricing-plan__summary">For beginners plan</h2>
+      </div>
+      <div class="pricing-plan__description">
+        <ul class="pricing-plan__list">
+          <li class="pricing-plan__feature">All Features</li>
+          <li class="pricing-plan__feature">Chat Support</li>
+          <li class="pricing-plan__feature">50++ Learning Videos</li>
+        </ul>
+      </div>
+      <div class="pricing-plan__actions">
+        <p class="pricing-plan__cost">$6</p>
+        <p class="pricing-plan__text">per month</p>
+        <a href="./" class="pricing-plan__button">Purchase</a>
+        <p class="pricing-plan__text">Minimum spend $72 over 12 months</p>
+      </div>
+    </section>
+
+    <section class="pricing-plan pricing-plan--highlighted">
+      <div class="pricing-plan__special-text">Recommended</div>
+      <div class="pricing-plan__header">
+        <h1 class="pricing-plan__title">Premium Plan</h1>
+        <h2 class="pricing-plan__summary">Most Profitable Plan</h2>
+      </div>
+      <div class="pricing-plan__description">
+        <ul class="pricing-plan__list">
+          <li class="pricing-plan__feature">HD Quality and More Complete Tutorial</li>
+          <li class="pricing-plan__feature">Email Security and Mailing</li>
+          <li class="pricing-plan__feature">More Videos to study</li>
+        </ul>
+      </div>
+      <div class="pricing-plan__actions">
+        <p class="pricing-plan__cost">$20</p>
+        <p class="pricing-plan__text">per month</p>
+        <a href="./" class="pricing-plan__button">Purchase</a>
+        <p class="pricing-plan__text">Minimum spend $240 over 12 months</p>
+      </div>
+    </section>
+
+    <section class="pricing-plan">
+      <div class="pricing-plan__special-text"></div>
+      <div class="pricing-plan__header">
+        <h1 class="pricing-plan__title">Expert Plan</h1>
+        <h2 class="pricing-plan__summary">For someone who has own a business company and want to improve</h2>
+      </div>
+      <div class="pricing-plan__description">
+        <ul class="pricing-plan__list">
+          <li class="pricing-plan__feature">Advanced Programs and Intensive Expert</li>
+          <li class="pricing-plan__feature">Custom Learning Topic to Choose</li>
+          <li class="pricing-plan__feature">Unlimited Video Access</li>
+        </ul>
+      </div>
+      <div class="pricing-plan__actions">
+        <p class="pricing-plan__cost">$40</p>
+        <p class="pricing-plan__text">per month</p>
+        <a href="./" class="pricing-plan__button">Purchase</a>
+        <p class="pricing-plan__text">Minimum spend $480 over 12 months</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="section__container" id="testimony">
+    <h2>Our Testimonials</h2>
+    <h1>What Our Customer Say</h1>
+    <div class="section__grid">
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span>
+        <h4>Love the Simplicity</h4>
+        <p>
+          The system is good and have a good design that make the user more enjoy!!!
+        </p>
+        <img src="teacher.jpg" alt="user">
+        <h5>Rachel Sabrina</h5>
+        <h6>Managing Director</h6>
+      </div>
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span>
+        <h4>Excellent Designs</h4>
+        <p>
+          The Subscription plan that has been made is good and can help user to choose what they wanted to do
+        </p>
+        <img src="prof.jpg" alt="user">
+        <h5>James Charles</h5>
+        <h6>CEO of Company</h6>
+      </div>
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span>
+        <h4>Efficient and Reliable</h4>
+        <p>
+          The learning activity is so interactive and many options to choose
+        </p>
+        <img src="testimony.png" alt="user">
+        <h5>Anderson</h5>
+        <h6>Professor</h6>
+      </div>
+    </div>
+  </section>
+
+  <section class="learning-page" id="learn">
+    <div class="video-container">
+      <iframe 
+        src="video.mp4" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="title">
+      <h1>Our Learning Page</h1>
+    </div>
+    <div class="services">
+      <div class="caard">
+        <div class="icon">
+          <i class="fas fa-calendar"></i>
+        </div>
+        <h2>English Class</h2>
+        <p>This class aims to study principle of Grammar and Vocabulary</p>
+      </div>
+      <div class="caard">
+        <div class="icon">
+          <i class="fas fa-user-graduate"></i>
+        </div>
+        <h2>Social Nature Class</h2>
+        <p>This class aims to help all of the students to be more care about nature and can interact with other people fluently without hesitation.</p>
+      </div>
+      <div class="caard">
+        <div class="icon">
+          <i class="fas fa-handshake"></i>
+        </div>
+        <h2>Public Speaking Class</h2>
+        <p>This class is aim to help student communicate with good public speaking skills and can attract somebody and make some business together</p>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
